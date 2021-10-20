@@ -10,7 +10,7 @@ import pImage from './Images/pImage.jpg';
 export default function ProOne() {
     return (
         <>
-         <Carousel>
+         <Carousel infiniteLoop autoPlay>
                 <div>
                     <img src={pImage} />
                     
